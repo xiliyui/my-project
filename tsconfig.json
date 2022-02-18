@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*", "./typing.d.ts"],
+  "include": ["src/**/*", "./typings.d.ts"],
   "exclude": ["node_modules", "dist", "webpack"],
   "compilerOptions": {
     "module": "esNext",
