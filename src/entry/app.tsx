@@ -4,7 +4,7 @@ export default (): JSX.Element => {
   const [test, setTest] = useState<string>()
 
   useEffect(() => {
-    // setTest('hallo world')
+    setTest('hallo world')
   })
 
   return <>{test}</>
